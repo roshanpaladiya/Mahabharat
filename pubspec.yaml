@@ -1,0 +1,43 @@
+name: mahabharat
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+#  shared_preferences: 2.2.0
+  get:
+  cached_network_image: 3.2.3
+  flick_video_player: 0.5.0
+  url_launcher: 6.1.11
+#  video_player: 2.7.0
+#  textfield_search:
+  flutter_share: 2.0.0
+#  english_words:
+  rate_my_app: 2.0.0
+  in_app_review:
+  just_audio:
+  http: ^1.1.0
+  search_bar_animated: 1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/music/
